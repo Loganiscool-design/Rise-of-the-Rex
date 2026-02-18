@@ -1,6 +1,7 @@
-[gd_scene load_steps=23 format=3 uid="uid://bojcx1kg5yol0"]
+[gd_scene load_steps=24 format=3 uid="uid://bojcx1kg5yol0"]
 
 [ext_resource type="Texture2D" uid="uid://dxxsr7f71r0ek" path="res://assets/img/mort.png" id="1_ch8i7"]
+[ext_resource type="Script" path="res://scenes/dino.gd" id="1_xokbf"]
 [ext_resource type="AudioStream" uid="uid://bc4ihglsgsylt" path="res://assets/sound/jump.wav" id="2_qch0s"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_55l6l"]
@@ -154,6 +155,7 @@ size = Vector2(10, 16)
 [node name="Dino" type="CharacterBody2D"]
 z_index = 1
 scale = Vector2(8, 8)
+script = ExtResource("1_xokbf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1

@@ -11,7 +11,7 @@
 [node name="Ground" parent="." instance=ExtResource("2_jlybg")]
 
 [node name="Dino" parent="." instance=ExtResource("3_01egt")]
-position = Vector2(150, 488)
+position = Vector2(145, 488)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(576, 324)
