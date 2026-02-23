@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://b0t00i21iueey"]
+
+[ext_resource type="FontFile" uid="uid://dh5v5axet4tde" path="res://assets/fonts/retro.ttf" id="1_o68m5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hyv50"]
+bg_color = Color(0.529971, 0.660254, 5.77569e-07, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4uhpk"]
+bg_color = Color(0.483003, 0.661687, 0.364983, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ut3gn"]
+bg_color = Color(5.53504e-06, 0.725494, 0.199089, 1)
+
+[node name="GameOver" type="CanvasLayer"]
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -112.0
+offset_top = -29.5
+offset_right = 138.0
+offset_bottom = 29.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_o68m5")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/hover = SubResource("StyleBoxFlat_hyv50")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4uhpk")
+theme_override_styles/normal = SubResource("StyleBoxFlat_ut3gn")
+text = "RESTART"
